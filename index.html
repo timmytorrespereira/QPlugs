@@ -1,44 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title> Quechua Plugs </title>
-    <a href=#gfuel> Sponsored by GFuel.</a>
 </head>
 
-<body>
-   <header>
-       <img class="center" src="logo.PNG" width="100" height="100" alt="Logo"/>
-       <h1>Quechua Plugs</h1>
-       <ul>
-           <li><a href="Join.html"></a> </li>
 
-       </ul>
-       <nav>About</nav> <nav>Join</nav>
-       <nav>Montages</nav>
-       <nav>Merch</nav>
-       <h3>Official website</h3>
-       <hr>
+<body>
+
+   <header>
+       <div id="top-part">
+           <ul class="Main">
+               <li id="image"><img class="center" src="logo.PNG" width="80" height="80" alt="Logo"/></li>
+               <li id="name"><h1>Quechua Plugs</h1></li>
+           </ul>
+       </div>
+       <div id ="navigation">
+           <nav>
+               <ul>
+                   <li><a href="#Home">Home</a> </li>
+                   <li><a href="#Join">Join</a> </li>
+                   <li><a href="#Shop">Shop</a> </li>
+                   <li><a href="#About">More Info</a> </li>
+               </ul>
+           </nav>
+       </div>
    </header>
 
-   <main>
-       <p>
-           Welcome to Quechua Plugs,
-           a group of amateur skaters that like to have fun.
-           We also like to practise kickflips for 2 hours straight,
-           go to La Muette even though it's raining,
-           and take clips for instagram, btw shameless plug, go follow us on insta.
-       </p>
 
-   </main>
+   <section>
+       <div class="middletop">
+           <div class="wordshere">
+              Welcome to Quechua Plugs,
+           </div>
+           <div class="picthere">
+               <iframe
+                   width="560" height="315" src="https://www.youtube.com/embed/yGw4Y8Zc9Jk"
+                   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen>
+               </iframe>
+           </div>
+       </div>
+   </section>
 
-   <footer>
-       <p></p>
+   <section id="Join">
+       Join
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="mail">Email:</label>
+      <input type="text" id="mail" name="email"><br><br>
+      <input type="submit" value="Submit">
 
-   </footer>
+   </section>
+       <section id="Shop">
+           Shop
+           <div class="wrapper">
+               <div class="item">1</div>
+               <div class="item">2</div>
+           </div>
+
+       </section>
+       <section id="About">More Info</section>
+       <footer>Footer</footer>
 
 
 </body>

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+header .logo img{
+    background: red;
+    width: 80px;
+    height: 80px;
+}
+
+header .logo{
+    text-align: center;
+}
