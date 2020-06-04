@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-ul{
+.navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,6 +35,12 @@ header .logo img{
     height: 80px;
 }
 
-header .logo{
+header .logo-name{
+    display: inline;
     text-align: center;
+}
+
+.name {
+    background: red;
+    margin: none;
 }

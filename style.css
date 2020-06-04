@@ -47,8 +47,9 @@ header {
 }
 
 section {
-    background: red;
+    background: #FFEBCD;
     padding: 20px;
+
 }
 
 p {
@@ -71,6 +72,7 @@ footer {
   margin: auto;
   width: 25%;
   padding: 0px;
+}
 
 #image {
     margin: auto;
@@ -106,4 +108,15 @@ ul.Main {
     color: white;
     padding: 10px;
     grid-column-gap: 20px;
+    margin: 0px 50px 0px 40px;
+    color: black;
+
+}
+
+.picthere{
+    float: center;
+}
+
+#navigation{
+    position: sticky;
 }
